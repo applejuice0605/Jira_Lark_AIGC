@@ -60,6 +60,45 @@ def _get_by_path(fields: dict, path: str) -> str:
     return str(cur) if cur is not None else ""
 
 
+def _priority_rank(name: str | None) -> int:
+    if not name:
+        return 999
+    n = str(name).strip().upper()
+    mapping = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
+    if n in mapping:
+        return mapping[n]
+    m = re.search(r"\bP(\d)\b", n)
+    if m:
+        try:
+            return int(m.group(1))
+        except Exception:
+            pass
+    synonyms = {"HIGHEST": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
+    if n in synonyms:
+        return synonyms[n]
+    return 999
+
+
+def _created_sort_val(created: str | None) -> float:
+    if not created:
+        return float("inf")
+    s = str(created)
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%f%z", "%Y-%m-%dT%H:%M:%S%z"):
+        try:
+            dt = datetime.strptime(s, fmt)
+            return dt.timestamp()
+        except Exception:
+            pass
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%f", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            naive = datetime.strptime(s, fmt)
+            dt = pytz.utc.localize(naive)
+            return dt.timestamp()
+        except Exception:
+            pass
+    return float("inf")
+
+
 def _summarize_by_custom_field(issues: list[dict], field_path: str) -> dict[str, int]:
     counts: dict[str, int] = {}
     for issue in issues:
@@ -95,11 +134,18 @@ def format_post_report(
     qa_counts = _summarize_by_custom_field(issues, qa_field_path)
     top_qas = list(qa_counts.items())[:10]
     if top_qas:
-        top_line = "经办人Top：" + ", ".join([f"{name}:{cnt}" for name, cnt in top_qas])
+        top_line = "TOP QA PIC：" + ", ".join([f"{name}:{cnt}" for name, cnt in top_qas])
         content.append([[{"tag": "text", "text": top_line}]][0])
 
-    # 列表：按指定列顺序输出（不展示原先的明细与状态分布）
-    for issue in issues[:top_n]:
+    # 列表：按 Priority(P0→P1→P2→P3) 优先，再按创建时间升序；仅输出前 top_n
+    issues_sorted = sorted(
+        issues,
+        key=lambda i: (
+            _priority_rank(_get_by_path((i.get("fields") or {}), "priority.name")),
+            _created_sort_val((i.get("fields") or {}).get("created", "")),
+        ),
+    )
+    for issue in issues_sorted[:top_n]:
         key = issue.get("key", "")
         fields = issue.get("fields") or {}
         qa_val = _get_by_path(fields, qa_field_path)
@@ -136,3 +182,6 @@ def format_post_report(
         content.append(elements)
 
     return title, content
+import re
+from datetime import datetime
+import pytz

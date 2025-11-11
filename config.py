@@ -114,5 +114,5 @@ def load_config() -> Config:
         priority_emoji=get("PRIORITY_EMOJI", "⚠️"),
         summary_emoji=get("SUMMARY_EMOJI", "📝"),
         link_emoji=get("LINK_EMOJI", "🔗"),
-        show_limit=get_int("SHOW_LIMIT", 20),
+        show_limit=get_int("SHOW_LIMIT", 15),
     )

@@ -22,6 +22,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Validate required env
+        env:
+          JIRA_AUTH_METHOD: basic
+          JIRA_USERNAME: ${{ secrets.JIRA_USERNAME }}
+          JIRA_PASSWORD: ${{ secrets.JIRA_PASSWORD }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          LARK_WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
+          REPORT_PROJECT_KEYS: ${{ secrets.REPORT_PROJECT_KEYS }}
+          REPORT_JQL: ${{ secrets.REPORT_JQL }}
+        run: |
+          if [ -z "$JIRA_USERNAME" ]; then echo "JIRA_USERNAME missing (configure repository secret)."; exit 1; fi
+          if [ -z "$JIRA_PASSWORD" ]; then echo "JIRA_PASSWORD missing (configure repository secret)."; exit 1; fi
+          if [ -z "$JIRA_BASE_URL" ]; then echo "JIRA_BASE_URL missing (configure repository secret)."; exit 1; fi
+          if [ -z "$LARK_WEBHOOK_URL" ]; then echo "LARK_WEBHOOK_URL missing (configure repository secret)."; exit 1; fi
+          if [ -z "$REPORT_PROJECT_KEYS" ]; then echo "REPORT_PROJECT_KEYS missing (configure repository secret)."; exit 1; fi
+          if [ -z "$REPORT_JQL" ]; then echo "REPORT_JQL missing (configure repository secret)."; exit 1; fi
+
       - name: Run daily report
         env:
           JIRA_AUTH_METHOD: basic

@@ -8,6 +8,7 @@ from lark_client import LarkClient
 from utils import setup_logger
 from formatter import _get_by_path, _summarize_by_custom_field
 from datetime import datetime
+import re
 import pytz
 
 
@@ -52,6 +53,51 @@ def _format_created(created: str, tz_name: str | None = None) -> str:
     return created
 
 
+def _priority_rank(name: str | None) -> int:
+    """Map priority name to order: P0<P1<P2<P3, unknown last."""
+    if not name:
+        return 999
+    n = str(name).strip().upper()
+    mapping = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
+    if n in mapping:
+        return mapping[n]
+    # Try to parse patterns like 'P2 - High'
+    m = re.search(r"\bP(\d)\b", n)
+    if m:
+        try:
+            v = int(m.group(1))
+            return v
+        except Exception:
+            pass
+    # Common Jira synonyms
+    synonyms = {"HIGHEST": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
+    if n in synonyms:
+        return synonyms[n]
+    return 999
+
+
+def _created_sort_val(created: str | None) -> float:
+    """Return a sortable timestamp for created time; unknown goes last."""
+    if not created:
+        return float("inf")
+    s = str(created)
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%f%z", "%Y-%m-%dT%H:%M:%S%z"):
+        try:
+            dt = datetime.strptime(s, fmt)
+            return dt.timestamp()
+        except Exception:
+            pass
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%f", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            naive = datetime.strptime(s, fmt)
+            # Assume UTC for naive timestamps
+            dt = pytz.utc.localize(naive)
+            return dt.timestamp()
+        except Exception:
+            pass
+    return float("inf")
+
+
 def build_interactive_card(
     issues: List[Dict],
     title: str,
@@ -93,13 +139,19 @@ def build_interactive_card(
     qa_counts = _summarize_by_custom_field(issues, qa_field_path)
     top_qas = list(qa_counts.items())[:10]
     if top_qas:
-        top_line = "🏆 经办人Top：" + ", ".join([f"{name}:{cnt}" for name, cnt in top_qas])
+        top_line = "🏆 TOP QA PIC：" + ", ".join([f"{name}:{cnt}" for name, cnt in top_qas])
         elements.append({"tag": "div", "text": {"tag": "lark_md", "content": top_line}})
 
     elements.append({"tag": "hr"})
 
-    # Issue list：按创建时间升序排序，超过 show_limit 折叠
-    issues_sorted = sorted(issues, key=lambda i: (i.get("fields") or {}).get("created", ""))
+    # Issue list：按 Priority(P0→P1→P2→P3) 优先，再按创建时间升序，超过 show_limit 折叠
+    issues_sorted = sorted(
+        issues,
+        key=lambda i: (
+            _priority_rank(_get_by_path((i.get("fields") or {}), "priority.name")),
+            _created_sort_val((i.get("fields") or {}).get("created", "")),
+        ),
+    )
     show_items = issues_sorted[:show_limit]
     hidden_count = max(0, len(issues_sorted) - len(show_items))
 
@@ -171,14 +223,14 @@ def build_interactive_card(
             if summary:
                 elements.append({"tag": "note", "elements": [{"tag": "plain_text", "content": f"{summary_emoji} {summary}"}]})
 
-    # 折叠提示与“查看全部”链接
+    # 折叠提示与“查看全部”链接（英文文案）
     if hidden_count > 0:
         elements.append({"tag": "hr"})
-        tip = f"其余 {hidden_count} 条已折叠"
+        tip = f"Remaining {hidden_count} items collapsed"
         if jira_base_url and jql:
             # 构造查看全部链接到 Jira 搜索页
             jql_url = f"{jira_base_url.rstrip('/')}/issues/?jql={quote_plus(jql)}"
-            tip = tip + f"，[查看全部]({jql_url})"
+            tip = tip + f", [View All]({jql_url})"
         elements.append({"tag": "div", "text": {"tag": "lark_md", "content": f"ℹ️ {tip}"}})
 
     return card
