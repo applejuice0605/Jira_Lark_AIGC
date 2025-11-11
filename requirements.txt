@@ -1,0 +1,6 @@
+requests
+charset-normalizer>=2,<4
+python-dotenv
+APScheduler
+pytz
+tzdata

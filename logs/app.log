@@ -1,0 +1,133 @@
+2025-11-07 17:35:43,906 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-07 17:35:47,934 ERROR __main__: 获取 Jira 数据失败: 404 Client Error:  for url: https://rd-project.fuseinsurtech.com/rest/api/3/search?jql=project+%3D+CS+AND+issuetype+%3D+Bug+AND+status+%3D+Resolved+AND+Env+in+%28SIT%2C+UAT%29&maxResults=100
+Traceback (most recent call last):
+  File "D:\FuseProgram\Jira_Lark_AIGC\main.py", line 25, in run_once
+    issues = jira.search_issues(config.report_jql, max_results=config.max_results)
+  File "D:\FuseProgram\Jira_Lark_AIGC\jira_client.py", line 44, in search_issues
+    raise last_exc
+  File "D:\FuseProgram\Jira_Lark_AIGC\jira_client.py", line 36, in search_issues
+    resp.raise_for_status()
+  File "D:\FuseProgram\Jira_Lark_AIGC\.venv\lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error:  for url: https://rd-project.fuseinsurtech.com/rest/api/3/search?jql=project+%3D+CS+AND+issuetype+%3D+Bug+AND+status+%3D+Resolved+AND+Env+in+%28SIT%2C+UAT%29&maxResults=100
+2025-11-07 17:37:53,435 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-07 17:37:56,613 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-07 17:37:58,366 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-07 18:02:24,817 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-07 18:02:28,264 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-07 18:02:28,615 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-07 18:21:24,050 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-07 18:21:27,522 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-07 18:21:27,878 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-07 18:24:32,594 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-07 18:24:35,583 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-07 18:24:36,006 INFO __main__: Lark响应: {'code': 19002, 'data': {}, 'msg': 'params error, unknown content value'}
+2025-11-07 18:24:36,006 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-07 18:25:02,669 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-07 18:25:05,684 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-07 18:25:06,467 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-07 18:25:06,469 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-08 16:11:57,702 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 16:12:01,068 ERROR __main__: 获取 Jira 数据失败: 403 Client Error: Forbidden for url: https://rd-project.fuseinsurtech.com/rest/api/2/search?jql=project+%3D+CS+AND+issuetype+%3D+Bug+AND+status+%3D+Resolved+AND+Env+in+%28SIT%2C+UAT%29&maxResults=100
+Traceback (most recent call last):
+  File "D:\FuseProgram\Jira_Lark_AIGC\main.py", line 26, in run_once
+    issues = jira.search_issues(config.report_jql, max_results=config.max_results)
+  File "D:\FuseProgram\Jira_Lark_AIGC\jira_client.py", line 46, in search_issues
+    raise last_exc
+  File "D:\FuseProgram\Jira_Lark_AIGC\jira_client.py", line 38, in search_issues
+    resp.raise_for_status()
+  File "D:\FuseProgram\Jira_Lark_AIGC\.venv\lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://rd-project.fuseinsurtech.com/rest/api/2/search?jql=project+%3D+CS+AND+issuetype+%3D+Bug+AND+status+%3D+Resolved+AND+Env+in+%28SIT%2C+UAT%29&maxResults=100
+2025-11-08 17:44:30,905 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 17:44:34,475 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 17:44:35,189 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 17:44:35,189 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-08 17:49:28,669 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 17:49:31,644 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 17:49:32,225 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 17:49:32,226 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-08 17:54:49,284 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 17:54:52,165 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 17:54:52,823 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 17:54:52,824 INFO __main__: 交互卡片已推送，条目数=100
+2025-11-08 18:00:16,040 INFO __main__: 开始抓取 Jira 原始数据用于定位 Env 字段
+2025-11-08 18:00:16,830 INFO __main__: 获取到字段元数据 128 条
+2025-11-08 18:00:18,291 INFO __main__: 获取到 issue 50 条（最多50条用于示例）
+2025-11-08 18:00:18,298 INFO __main__: 已导出 Jira 原始数据到 logs/jira_dump.json
+2025-11-08 18:00:18,298 INFO __main__: 样例 issue 的字段键数量: 88
+2025-11-08 18:00:18,299 INFO __main__: 候选 Env 字段: id=customfield_10701, name=Env, 示例值={'self': 'https://rd-project.fuseinsurtech.com/rest/api/2/customFieldOption/10401', 'value': 'SIT', 'id': '10401', 'disabled': False}
+2025-11-08 18:00:18,299 INFO __main__: 候选 Env 字段: id=environment, name=Environment, 示例值=None
+2025-11-08 18:02:30,672 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:02:33,667 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:02:34,238 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:02:34,238 INFO __main__: 报告已推送，条目数=100，类型=post
+2025-11-08 18:02:39,204 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:02:41,907 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:02:42,551 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:02:42,551 INFO __main__: 交互卡片已推送，条目数=100
+2025-11-08 18:10:08,880 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:10:11,786 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:10:12,681 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:10:12,682 INFO __main__: 交互卡片已推送，条目数=100
+2025-11-08 18:10:18,460 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:10:21,226 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:10:21,946 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:10:21,947 INFO __main__: 报告已推送，条目数=100，类型=interactive
+2025-11-08 18:36:28,993 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:36:32,445 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:36:33,099 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:36:33,101 INFO __main__: 交互卡片已推送，条目数=100
+2025-11-08 18:41:57,221 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:42:00,099 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:42:00,768 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:42:00,769 INFO __main__: 交互卡片已推送，条目数=100
+2025-11-08 18:44:14,848 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:44:17,946 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:44:18,580 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:44:18,581 INFO __main__: 交互卡片已推送，条目数=100
+2025-11-08 18:56:04,860 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 18:56:08,287 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-08 18:56:09,033 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 18:56:09,034 INFO __main__: 交互卡片已推送，条目数=100
+2025-11-08 19:54:43,360 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 19:54:44,363 INFO __main__: 从 Jira 获取到 10 条结果
+2025-11-08 19:54:45,022 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 19:54:45,022 INFO __main__: 交互卡片已推送，条目数=10
+2025-11-08 19:54:56,511 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 19:54:57,072 INFO __main__: 从 Jira 获取到 10 条结果
+2025-11-08 19:54:57,726 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 19:54:57,728 INFO __main__: 交互卡片已推送，条目数=10
+2025-11-08 19:55:11,781 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-08 19:55:12,324 INFO __main__: 从 Jira 获取到 10 条结果
+2025-11-08 19:55:12,998 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-08 19:55:12,999 INFO __main__: 交互卡片已推送，条目数=10
+2025-11-09 00:22:45,579 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-09 00:22:46,635 INFO __main__: 从 Jira 获取到 10 条结果
+2025-11-09 00:22:47,839 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-09 00:22:47,841 INFO __main__: 交互卡片已推送，条目数=10
+2025-11-09 00:27:06,351 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-09 00:27:06,956 INFO __main__: 从 Jira 获取到 10 条结果
+2025-11-09 00:27:07,125 ERROR __main__: 推送交互卡片失败: local variable 'fields_block' referenced before assignment
+Traceback (most recent call last):
+  File "D:\FuseProgram\Jira_Lark_AIGC\card_main.py", line 214, in run_once_card
+    card = build_interactive_card(
+  File "D:\FuseProgram\Jira_Lark_AIGC\card_main.py", line 151, in build_interactive_card
+    elements.append(fields_block)
+UnboundLocalError: local variable 'fields_block' referenced before assignment
+2025-11-09 00:27:37,782 INFO __main__: 开始生成交互卡片：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-09 00:27:38,386 INFO __main__: 从 Jira 获取到 10 条结果
+2025-11-09 00:27:39,415 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-09 00:27:39,416 INFO __main__: 交互卡片已推送，条目数=10
+2025-11-09 00:43:46,420 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-09 00:43:47,884 INFO __main__: 从 Jira 获取到 10 条结果
+2025-11-09 00:43:48,875 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-09 00:43:48,875 INFO __main__: 报告已推送，条目数=10，类型=interactive
+2025-11-10 10:44:36,076 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-10 10:44:37,245 INFO __main__: 从 Jira 获取到 9 条结果
+2025-11-10 10:44:38,049 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-10 10:44:38,050 INFO __main__: 报告已推送，条目数=9，类型=interactive
+2025-11-10 10:57:26,257 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-10 10:57:26,915 INFO __main__: 从 Jira 获取到 9 条结果
+2025-11-10 10:57:28,025 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-10 10:57:28,026 INFO __main__: 报告已推送，条目数=9，类型=interactive

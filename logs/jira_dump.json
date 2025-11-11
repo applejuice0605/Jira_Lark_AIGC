@@ -1,0 +1,863 @@
+{
+  "jql": "project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)",
+  "fields_meta_count": 128,
+  "field_name_map_candidates": [
+    [
+      "customfield_10701",
+      "Env"
+    ],
+    [
+      "environment",
+      "Environment"
+    ]
+  ],
+  "issues_sample": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "103727",
+      "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/103727",
+      "key": "CS-21585",
+      "fields": {
+        "issuetype": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issuetype/10100",
+          "id": "10100",
+          "description": "A problem which impairs or prevents the functions of the product.",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303
+        },
+        "timespent": 3600,
+        "project": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/project/10100",
+          "id": "10100",
+          "key": "CS",
+          "name": "Core System",
+          "projectTypeKey": "software",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/projectavatar?pid=10100&avatarId=10700",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=small&pid=10100&avatarId=10700",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=xsmall&pid=10100&avatarId=10700",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=medium&pid=10100&avatarId=10700"
+          },
+          "projectCategory": {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/projectCategory/10000",
+            "id": "10000",
+            "description": "产品研发中心",
+            "name": "R&D"
+          }
+        },
+        "fixVersions": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/version/22700",
+            "id": "22700",
+            "name": "v5.82.0",
+            "archived": false,
+            "released": false
+          }
+        ],
+        "customfield_10110": null,
+        "customfield_11001": null,
+        "customfield_10111": null,
+        "customfield_11200": null,
+        "aggregatetimespent": 3600,
+        "resolution": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_11201": null,
+        "customfield_11202": null,
+        "customfield_11203": null,
+        "customfield_10500": null,
+        "customfield_10107": null,
+        "customfield_10701": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/customFieldOption/10401",
+          "value": "SIT",
+          "id": "10401",
+          "disabled": false
+        },
+        "customfield_10108": null,
+        "customfield_10109": null,
+        "resolutiondate": "2025-11-07T11:17:25.000+0000",
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/CS-21585/watchers",
+          "watchCount": 2,
+          "isWatching": false
+        },
+        "created": "2025-11-07T09:10:15.000+0000",
+        "customfield_12000": null,
+        "customfield_12200": null,
+        "priority": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/priority/3",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/priorities/highest.svg",
+          "name": "P2",
+          "id": "3"
+        },
+        "customfield_10100": "0|i09q5g:",
+        "customfield_10101": null,
+        "customfield_12201": null,
+        "customfield_10102": null,
+        "customfield_12600": null,
+        "labels": [],
+        "customfield_12203": null,
+        "customfield_11900": "通信有时拿不到Region字段，改为在url上拼接",
+        "timeestimate": 0,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/version/22500",
+            "id": "22500",
+            "description": "<p>binder negotiation</p>",
+            "name": "v5.80.0",
+            "archived": false,
+            "released": false,
+            "releaseDate": "2025-11-13"
+          }
+        ],
+        "issuelinks": [
+          {
+            "id": "88117",
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issueLink/88117",
+            "type": {
+              "id": "10003",
+              "name": "Relates",
+              "inward": "relates to",
+              "outward": "relates to",
+              "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issueLinkType/10003"
+            },
+            "inwardIssue": {
+              "id": "89659",
+              "key": "CS-17400",
+              "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/89659",
+              "fields": {
+                "summary": "Fuse Pro Unifcation: Bonus Balance module （Bank Withdrawal)",
+                "status": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/status/10107",
+                  "description": "",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/status_generic.gif",
+                  "name": "IN SIT",
+                  "id": "10107",
+                  "statusCategory": {
+                    "self": "https://rd-project.fuseinsurtech.com/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "inprogress",
+                    "name": "In Progress"
+                  }
+                },
+                "priority": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/priority/2",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/priorities/major.svg",
+                  "name": "P1",
+                  "id": "2"
+                },
+                "issuetype": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issuetype/10001",
+                  "id": "10001",
+                  "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/issuetypes/story.svg",
+                  "name": "Story",
+                  "subtask": false
+                }
+              }
+            }
+          }
+        ],
+        "assignee": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=hanwenhao",
+          "name": "hanwenhao",
+          "key": "JIRAUSER10190",
+          "emailAddress": "hanwenhao@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/useravatar?ownerId=JIRAUSER10190&avatarId=11501",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=small&ownerId=JIRAUSER10190&avatarId=11501",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER10190&avatarId=11501",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=medium&ownerId=JIRAUSER10190&avatarId=11501"
+          },
+          "displayName": "韩文豪(Hans Han)",
+          "active": true,
+          "timeZone": "Asia/Jakarta"
+        },
+        "updated": "2025-11-07T11:17:25.000+0000",
+        "status": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/status/5",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/statuses/resolved.png",
+          "name": "Resolved",
+          "id": "5",
+          "statusCategory": {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "success",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "customfield_13001": null,
+        "description": "提现报错\r\n0919100100     0XGekea\r\n \r\n具体看图",
+        "customfield_11220": null,
+        "customfield_11221": null,
+        "customfield_11300": "{}",
+        "customfield_10203": null,
+        "customfield_11215": null,
+        "customfield_10204": "",
+        "customfield_11216": null,
+        "customfield_10601": 1.0,
+        "customfield_11217": null,
+        "customfield_10800": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/customFieldOption/10503",
+            "value": "Testing Phase",
+            "id": "10503",
+            "disabled": false
+          }
+        ],
+        "customfield_11218": null,
+        "customfield_10603": null,
+        "customfield_11219": null,
+        "aggregatetimeestimate": 0,
+        "customfield_10604": null,
+        "summary": "【TH Bonus Balance modul】Withdrawal error",
+        "creator": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=fengmingming",
+          "name": "fengmingming",
+          "key": "JIRAUSER10183",
+          "emailAddress": "fengmingming@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/useravatar?ownerId=JIRAUSER10183&avatarId=11507",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=small&ownerId=JIRAUSER10183&avatarId=11507",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER10183&avatarId=11507",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=medium&ownerId=JIRAUSER10183&avatarId=11507"
+          },
+          "displayName": "冯明明(Jerry)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=fengmingming",
+          "name": "fengmingming",
+          "key": "JIRAUSER10183",
+          "emailAddress": "fengmingming@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/useravatar?ownerId=JIRAUSER10183&avatarId=11507",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=small&ownerId=JIRAUSER10183&avatarId=11507",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER10183&avatarId=11507",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=medium&ownerId=JIRAUSER10183&avatarId=11507"
+          },
+          "displayName": "冯明明(Jerry)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "customfield_12101": null,
+        "customfield_10000": "{summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@5a89eb73[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@97f317b[overall=PullRequestOverallBean{stateCount=0, state='OPEN', details=PullRequestOverallDetails{openCount=0, mergedCount=0, declinedCount=0}},byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@75391938[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@5bd1a0d[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7311d220[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@665b1f79[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5b963a53[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@36962e5e[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4b6b7a7e[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@757504bd[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@1fdbfce2[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@18b8c599[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={\"cachedValue\":{\"errors\":[],\"configErrors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":\"OPEN\",\"details\":{\"openCount\":0,\"mergedCount\":0,\"declinedCount\":0,\"total\":0},\"open\":true},\"byInstanceType\":{}},\"build\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"failedBuildCount\":0,\"successfulBuildCount\":0,\"unknownBuildCount\":0},\"byInstanceType\":{}},\"review\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":null,\"dueDate\":null,\"overDue\":false,\"completed\":false},\"byInstanceType\":{}},\"deployment-environment\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"topEnvironments\":[],\"showProjects\":false,\"successfulCount\":0},\"byInstanceType\":{}},\"repository\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}},\"branch\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}}}},\"isStale\":true}}",
+        "customfield_11210": null,
+        "customfield_12100": [],
+        "aggregateprogress": {
+          "progress": 3600,
+          "total": 3600,
+          "percent": 100
+        },
+        "customfield_11211": null,
+        "customfield_10200": null,
+        "customfield_11212": null,
+        "customfield_10201": null,
+        "customfield_11213": null,
+        "customfield_10202": null,
+        "customfield_11214": null,
+        "customfield_12500": null,
+        "customfield_11204": null,
+        "customfield_11205": null,
+        "customfield_11206": null,
+        "customfield_11801": null,
+        "customfield_11207": null,
+        "customfield_11208": null,
+        "customfield_11209": null,
+        "customfield_11802": null,
+        "duedate": "2025-11-10",
+        "progress": {
+          "progress": 3600,
+          "total": 3600,
+          "percent": 100
+        },
+        "votes": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/CS-21585/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "103645",
+      "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/103645",
+      "key": "CS-21550",
+      "fields": {
+        "issuetype": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issuetype/10100",
+          "id": "10100",
+          "description": "A problem which impairs or prevents the functions of the product.",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303
+        },
+        "timespent": 360,
+        "project": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/project/10100",
+          "id": "10100",
+          "key": "CS",
+          "name": "Core System",
+          "projectTypeKey": "software",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/projectavatar?pid=10100&avatarId=10700",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=small&pid=10100&avatarId=10700",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=xsmall&pid=10100&avatarId=10700",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=medium&pid=10100&avatarId=10700"
+          },
+          "projectCategory": {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/projectCategory/10000",
+            "id": "10000",
+            "description": "产品研发中心",
+            "name": "R&D"
+          }
+        },
+        "fixVersions": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/version/22500",
+            "id": "22500",
+            "description": "<p>binder negotiation</p>",
+            "name": "v5.80.0",
+            "archived": false,
+            "released": false,
+            "releaseDate": "2025-11-13"
+          }
+        ],
+        "customfield_10110": null,
+        "customfield_11001": null,
+        "customfield_10111": null,
+        "customfield_11200": null,
+        "aggregatetimespent": 360,
+        "resolution": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_11201": null,
+        "customfield_11202": null,
+        "customfield_11203": null,
+        "customfield_10500": null,
+        "customfield_10107": null,
+        "customfield_10701": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/customFieldOption/10401",
+          "value": "SIT",
+          "id": "10401",
+          "disabled": false
+        },
+        "customfield_10108": null,
+        "customfield_10109": null,
+        "resolutiondate": "2025-11-06T13:09:49.000+0000",
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/CS-21550/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2025-11-06T09:05:26.000+0000",
+        "customfield_12000": null,
+        "customfield_12200": null,
+        "priority": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/priority/4",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/priorities/high.svg",
+          "name": "P3",
+          "id": "4"
+        },
+        "customfield_10100": "0|i09pt8:",
+        "customfield_10101": null,
+        "customfield_12201": null,
+        "customfield_10102": null,
+        "customfield_12600": null,
+        "labels": [],
+        "customfield_12203": null,
+        "customfield_11900": null,
+        "timeestimate": 0,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/version/22500",
+            "id": "22500",
+            "description": "<p>binder negotiation</p>",
+            "name": "v5.80.0",
+            "archived": false,
+            "released": false,
+            "releaseDate": "2025-11-13"
+          }
+        ],
+        "issuelinks": [
+          {
+            "id": "88039",
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issueLink/88039",
+            "type": {
+              "id": "10003",
+              "name": "Relates",
+              "inward": "relates to",
+              "outward": "relates to",
+              "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issueLinkType/10003"
+            },
+            "inwardIssue": {
+              "id": "89659",
+              "key": "CS-17400",
+              "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/89659",
+              "fields": {
+                "summary": "Fuse Pro Unifcation: Bonus Balance module （Bank Withdrawal)",
+                "status": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/status/10107",
+                  "description": "",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/status_generic.gif",
+                  "name": "IN SIT",
+                  "id": "10107",
+                  "statusCategory": {
+                    "self": "https://rd-project.fuseinsurtech.com/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "inprogress",
+                    "name": "In Progress"
+                  }
+                },
+                "priority": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/priority/2",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/priorities/major.svg",
+                  "name": "P1",
+                  "id": "2"
+                },
+                "issuetype": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issuetype/10001",
+                  "id": "10001",
+                  "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/issuetypes/story.svg",
+                  "name": "Story",
+                  "subtask": false
+                }
+              }
+            }
+          }
+        ],
+        "assignee": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=liuzaihuan",
+          "name": "liuzaihuan",
+          "key": "JIRAUSER10245",
+          "emailAddress": "liuzaihuan@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=48",
+            "24x24": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=24",
+            "16x16": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=16",
+            "32x32": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=32"
+          },
+          "displayName": "刘在欢(Murphy Liu)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "updated": "2025-11-06T13:09:49.000+0000",
+        "status": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/status/5",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/statuses/resolved.png",
+          "name": "Resolved",
+          "id": "5",
+          "statusCategory": {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "success",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "customfield_13001": null,
+        "description": "税的标题要修改，要显示成Tax Deduction,目前显示成bonus adjustment的标题了\r\n  |0919100100|0XGekea|\r\n\r\n具体看图：",
+        "customfield_11220": null,
+        "customfield_11221": null,
+        "customfield_11300": "{}",
+        "customfield_10203": null,
+        "customfield_11215": null,
+        "customfield_10204": "",
+        "customfield_11216": null,
+        "customfield_10601": 1.0,
+        "customfield_11217": null,
+        "customfield_10800": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/customFieldOption/10500",
+            "value": "Requirement Phase",
+            "id": "10500",
+            "disabled": false
+          }
+        ],
+        "customfield_11218": null,
+        "customfield_10603": null,
+        "customfield_11219": null,
+        "aggregatetimeestimate": 0,
+        "customfield_10604": null,
+        "summary": "【TH Bonus Balance modul】The title of the tax needs to be modified and displayed as Tax Deduction. Currently, it is displayed as the title of bonus adjustment",
+        "creator": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=fengmingming",
+          "name": "fengmingming",
+          "key": "JIRAUSER10183",
+          "emailAddress": "fengmingming@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/useravatar?ownerId=JIRAUSER10183&avatarId=11507",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=small&ownerId=JIRAUSER10183&avatarId=11507",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER10183&avatarId=11507",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=medium&ownerId=JIRAUSER10183&avatarId=11507"
+          },
+          "displayName": "冯明明(Jerry)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=fengmingming",
+          "name": "fengmingming",
+          "key": "JIRAUSER10183",
+          "emailAddress": "fengmingming@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/useravatar?ownerId=JIRAUSER10183&avatarId=11507",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=small&ownerId=JIRAUSER10183&avatarId=11507",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER10183&avatarId=11507",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=medium&ownerId=JIRAUSER10183&avatarId=11507"
+          },
+          "displayName": "冯明明(Jerry)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "customfield_12101": null,
+        "customfield_10000": "{summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@5c226a5b[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@39ee8913[overall=PullRequestOverallBean{stateCount=0, state='OPEN', details=PullRequestOverallDetails{openCount=0, mergedCount=0, declinedCount=0}},byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7b3518fb[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@365eb09f[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@a729300[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@68feb889[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3b5f87ad[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@78461211[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@66b2748a[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@7b15a225[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3cb02005[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@74ae7b18[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={\"cachedValue\":{\"errors\":[],\"configErrors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":\"OPEN\",\"details\":{\"openCount\":0,\"mergedCount\":0,\"declinedCount\":0,\"total\":0},\"open\":true},\"byInstanceType\":{}},\"build\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"failedBuildCount\":0,\"successfulBuildCount\":0,\"unknownBuildCount\":0},\"byInstanceType\":{}},\"review\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":null,\"dueDate\":null,\"overDue\":false,\"completed\":false},\"byInstanceType\":{}},\"deployment-environment\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"topEnvironments\":[],\"showProjects\":false,\"successfulCount\":0},\"byInstanceType\":{}},\"repository\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}},\"branch\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}}}},\"isStale\":true}}",
+        "customfield_11210": null,
+        "customfield_12100": [],
+        "aggregateprogress": {
+          "progress": 360,
+          "total": 360,
+          "percent": 100
+        },
+        "customfield_11211": null,
+        "customfield_10200": null,
+        "customfield_11212": null,
+        "customfield_10201": null,
+        "customfield_11213": null,
+        "customfield_10202": null,
+        "customfield_11214": null,
+        "customfield_12500": null,
+        "customfield_11204": null,
+        "customfield_11205": null,
+        "customfield_11206": null,
+        "customfield_11801": null,
+        "customfield_11207": null,
+        "customfield_11208": null,
+        "customfield_11209": null,
+        "customfield_11802": null,
+        "duedate": "2025-12-06",
+        "progress": {
+          "progress": 360,
+          "total": 360,
+          "percent": 100
+        },
+        "votes": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/CS-21550/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "103638",
+      "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/103638",
+      "key": "CS-21546",
+      "fields": {
+        "issuetype": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issuetype/10100",
+          "id": "10100",
+          "description": "A problem which impairs or prevents the functions of the product.",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303
+        },
+        "timespent": 360,
+        "project": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/project/10100",
+          "id": "10100",
+          "key": "CS",
+          "name": "Core System",
+          "projectTypeKey": "software",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/projectavatar?pid=10100&avatarId=10700",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=small&pid=10100&avatarId=10700",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=xsmall&pid=10100&avatarId=10700",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/projectavatar?size=medium&pid=10100&avatarId=10700"
+          },
+          "projectCategory": {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/projectCategory/10000",
+            "id": "10000",
+            "description": "产品研发中心",
+            "name": "R&D"
+          }
+        },
+        "fixVersions": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/version/22500",
+            "id": "22500",
+            "description": "<p>binder negotiation</p>",
+            "name": "v5.80.0",
+            "archived": false,
+            "released": false,
+            "releaseDate": "2025-11-13"
+          }
+        ],
+        "customfield_10110": null,
+        "customfield_11001": null,
+        "customfield_10111": null,
+        "customfield_11200": null,
+        "aggregatetimespent": 360,
+        "resolution": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/resolution/10000",
+          "id": "10000",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_11201": null,
+        "customfield_11202": null,
+        "customfield_11203": null,
+        "customfield_10500": null,
+        "customfield_10107": null,
+        "customfield_10701": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/customFieldOption/10401",
+          "value": "SIT",
+          "id": "10401",
+          "disabled": false
+        },
+        "customfield_10108": null,
+        "customfield_10109": null,
+        "resolutiondate": "2025-11-06T13:33:04.000+0000",
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/CS-21546/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "created": "2025-11-06T08:16:26.000+0000",
+        "customfield_12000": null,
+        "customfield_12200": null,
+        "priority": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/priority/4",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/priorities/high.svg",
+          "name": "P3",
+          "id": "4"
+        },
+        "customfield_10100": "0|i09pro:",
+        "customfield_10101": null,
+        "customfield_12201": null,
+        "customfield_10102": null,
+        "customfield_12600": null,
+        "labels": [],
+        "customfield_12203": null,
+        "customfield_11900": null,
+        "timeestimate": 0,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/version/22500",
+            "id": "22500",
+            "description": "<p>binder negotiation</p>",
+            "name": "v5.80.0",
+            "archived": false,
+            "released": false,
+            "releaseDate": "2025-11-13"
+          }
+        ],
+        "issuelinks": [
+          {
+            "id": "88033",
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issueLink/88033",
+            "type": {
+              "id": "10003",
+              "name": "Relates",
+              "inward": "relates to",
+              "outward": "relates to",
+              "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issueLinkType/10003"
+            },
+            "inwardIssue": {
+              "id": "89659",
+              "key": "CS-17400",
+              "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/89659",
+              "fields": {
+                "summary": "Fuse Pro Unifcation: Bonus Balance module （Bank Withdrawal)",
+                "status": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/status/10107",
+                  "description": "",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/status_generic.gif",
+                  "name": "IN SIT",
+                  "id": "10107",
+                  "statusCategory": {
+                    "self": "https://rd-project.fuseinsurtech.com/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "inprogress",
+                    "name": "In Progress"
+                  }
+                },
+                "priority": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/priority/2",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/priorities/major.svg",
+                  "name": "P1",
+                  "id": "2"
+                },
+                "issuetype": {
+                  "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issuetype/10001",
+                  "id": "10001",
+                  "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+                  "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/issuetypes/story.svg",
+                  "name": "Story",
+                  "subtask": false
+                }
+              }
+            }
+          }
+        ],
+        "assignee": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=liuzaihuan",
+          "name": "liuzaihuan",
+          "key": "JIRAUSER10245",
+          "emailAddress": "liuzaihuan@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=48",
+            "24x24": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=24",
+            "16x16": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=16",
+            "32x32": "https://www.gravatar.com/avatar/90ec32d812c12cd44b3e32ce98831bf2?d=mm&s=32"
+          },
+          "displayName": "刘在欢(Murphy Liu)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "updated": "2025-11-06T13:33:04.000+0000",
+        "status": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/status/5",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://rd-project.fuseinsurtech.com/images/icons/statuses/resolved.png",
+          "name": "Resolved",
+          "id": "5",
+          "statusCategory": {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "success",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "customfield_13001": null,
+        "description": "Management Point详情页，文案需要修改\r\n  |0919200102|22Y#97n|\r\n\r\n具体看图：",
+        "customfield_11220": null,
+        "customfield_11221": null,
+        "customfield_11300": "{}",
+        "customfield_10203": null,
+        "customfield_11215": null,
+        "customfield_10204": "",
+        "customfield_11216": null,
+        "customfield_10601": 1.0,
+        "customfield_11217": null,
+        "customfield_10800": [
+          {
+            "self": "https://rd-project.fuseinsurtech.com/rest/api/2/customFieldOption/10500",
+            "value": "Requirement Phase",
+            "id": "10500",
+            "disabled": false
+          }
+        ],
+        "customfield_11218": null,
+        "customfield_10603": null,
+        "customfield_11219": null,
+        "aggregatetimeestimate": 0,
+        "customfield_10604": null,
+        "summary": "【TH Bonus Balance modul】Management Point detail page, Copywriting needs to be modified",
+        "creator": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=fengmingming",
+          "name": "fengmingming",
+          "key": "JIRAUSER10183",
+          "emailAddress": "fengmingming@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/useravatar?ownerId=JIRAUSER10183&avatarId=11507",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=small&ownerId=JIRAUSER10183&avatarId=11507",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER10183&avatarId=11507",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=medium&ownerId=JIRAUSER10183&avatarId=11507"
+          },
+          "displayName": "冯明明(Jerry)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/user?username=fengmingming",
+          "name": "fengmingming",
+          "key": "JIRAUSER10183",
+          "emailAddress": "fengmingming@fuse.co.id",
+          "avatarUrls": {
+            "48x48": "https://rd-project.fuseinsurtech.com/secure/useravatar?ownerId=JIRAUSER10183&avatarId=11507",
+            "24x24": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=small&ownerId=JIRAUSER10183&avatarId=11507",
+            "16x16": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER10183&avatarId=11507",
+            "32x32": "https://rd-project.fuseinsurtech.com/secure/useravatar?size=medium&ownerId=JIRAUSER10183&avatarId=11507"
+          },
+          "displayName": "冯明明(Jerry)",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "customfield_12101": null,
+        "customfield_10000": "{summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@2ed54772[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@794d6a12[overall=PullRequestOverallBean{stateCount=0, state='OPEN', details=PullRequestOverallDetails{openCount=0, mergedCount=0, declinedCount=0}},byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@6b4a0353[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@7945f9d2[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@1b95a991[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@75e305d6[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4e08d0a2[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@18553bd8[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@2e3ad062[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@431aadc6[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4b9ff8c7[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@7a259197[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={\"cachedValue\":{\"errors\":[],\"configErrors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":\"OPEN\",\"details\":{\"openCount\":0,\"mergedCount\":0,\"declinedCount\":0,\"total\":0},\"open\":true},\"byInstanceType\":{}},\"build\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"failedBuildCount\":0,\"successfulBuildCount\":0,\"unknownBuildCount\":0},\"byInstanceType\":{}},\"review\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":null,\"dueDate\":null,\"overDue\":false,\"completed\":false},\"byInstanceType\":{}},\"deployment-environment\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"topEnvironments\":[],\"showProjects\":false,\"successfulCount\":0},\"byInstanceType\":{}},\"repository\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}},\"branch\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}}}},\"isStale\":true}}",
+        "customfield_11210": null,
+        "customfield_12100": [],
+        "aggregateprogress": {
+          "progress": 360,
+          "total": 360,
+          "percent": 100
+        },
+        "customfield_11211": null,
+        "customfield_10200": null,
+        "customfield_11212": null,
+        "customfield_10201": null,
+        "customfield_11213": null,
+        "customfield_10202": null,
+        "customfield_11214": null,
+        "customfield_12500": null,
+        "customfield_11204": null,
+        "customfield_11205": null,
+        "customfield_11206": null,
+        "customfield_11801": null,
+        "customfield_11207": null,
+        "customfield_11208": null,
+        "customfield_11209": null,
+        "customfield_11802": null,
+        "duedate": "2025-11-09",
+        "progress": {
+          "progress": 360,
+          "total": 360,
+          "percent": 100
+        },
+        "votes": {
+          "self": "https://rd-project.fuseinsurtech.com/rest/api/2/issue/CS-21546/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    }
+  ]
+}
