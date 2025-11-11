@@ -25,12 +25,12 @@ jobs:
       - name: Validate required env
         env:
           JIRA_AUTH_METHOD: basic
-          JIRA_USERNAME: ${{ secrets.JIRA_USERNAME }}
-          JIRA_PASSWORD: ${{ secrets.JIRA_PASSWORD }}
-          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
-          LARK_WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
-          REPORT_PROJECT_KEYS: ${{ secrets.REPORT_PROJECT_KEYS }}
-          REPORT_JQL: ${{ secrets.REPORT_JQL }}
+          JIRA_USERNAME: ${{ secrets.JIRA_USERNAME || vars.JIRA_USERNAME }}
+          JIRA_PASSWORD: ${{ secrets.JIRA_PASSWORD || vars.JIRA_PASSWORD }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL || vars.JIRA_BASE_URL }}
+          LARK_WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL || vars.LARK_WEBHOOK_URL }}
+          REPORT_PROJECT_KEYS: ${{ secrets.REPORT_PROJECT_KEYS || vars.REPORT_PROJECT_KEYS }}
+          REPORT_JQL: ${{ secrets.REPORT_JQL || vars.REPORT_JQL }}
         run: |
           if [ -z "$JIRA_USERNAME" ]; then echo "JIRA_USERNAME missing (configure repository secret)."; exit 1; fi
           if [ -z "$JIRA_PASSWORD" ]; then echo "JIRA_PASSWORD missing (configure repository secret)."; exit 1; fi
