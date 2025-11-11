@@ -3,17 +3,11 @@ name: Daily Jira Report
 on:
   schedule:
     - cron: '0 2 * * *'  # 每天 UTC 02:00（北京时间 10:00）
-  workflow_dispatch:
-    inputs:
-      environment:
-        description: '环境名称（可选），用于读取 Environment 级别 Secrets'
-        required: false
-        default: 'production'
+  workflow_dispatch: {}
 
 jobs:
   report:
     runs-on: ubuntu-latest
-    environment: ${{ inputs.environment }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
