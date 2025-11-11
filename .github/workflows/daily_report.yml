@@ -3,11 +3,17 @@ name: Daily Jira Report
 on:
   schedule:
     - cron: '0 2 * * *'  # 每天 UTC 02:00（北京时间 10:00）
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: '环境名称（可选），用于读取 Environment 级别 Secrets'
+        required: false
+        default: 'production'
 
 jobs:
   report:
     runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,7 +37,20 @@ jobs:
           LARK_WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL || vars.LARK_WEBHOOK_URL }}
           REPORT_PROJECT_KEYS: ${{ secrets.REPORT_PROJECT_KEYS || vars.REPORT_PROJECT_KEYS }}
           REPORT_JQL: ${{ secrets.REPORT_JQL || vars.REPORT_JQL }}
+          JIRA_USERNAME_SOURCE: ${{ secrets.JIRA_USERNAME && 'secret' || (vars.JIRA_USERNAME && 'variable' || 'missing') }}
+          JIRA_PASSWORD_SOURCE: ${{ secrets.JIRA_PASSWORD && 'secret' || (vars.JIRA_PASSWORD && 'variable' || 'missing') }}
+          JIRA_BASE_URL_SOURCE: ${{ secrets.JIRA_BASE_URL && 'secret' || (vars.JIRA_BASE_URL && 'variable' || 'missing') }}
+          LARK_WEBHOOK_URL_SOURCE: ${{ secrets.LARK_WEBHOOK_URL && 'secret' || (vars.LARK_WEBHOOK_URL && 'variable' || 'missing') }}
+          REPORT_PROJECT_KEYS_SOURCE: ${{ secrets.REPORT_PROJECT_KEYS && 'secret' || (vars.REPORT_PROJECT_KEYS && 'variable' || 'missing') }}
+          REPORT_JQL_SOURCE: ${{ secrets.REPORT_JQL && 'secret' || (vars.REPORT_JQL && 'variable' || 'missing') }}
         run: |
+          echo "Sources:"
+          echo "  JIRA_USERNAME: $JIRA_USERNAME_SOURCE"
+          echo "  JIRA_PASSWORD: $JIRA_PASSWORD_SOURCE"
+          echo "  JIRA_BASE_URL: $JIRA_BASE_URL_SOURCE"
+          echo "  LARK_WEBHOOK_URL: $LARK_WEBHOOK_URL_SOURCE"
+          echo "  REPORT_PROJECT_KEYS: $REPORT_PROJECT_KEYS_SOURCE"
+          echo "  REPORT_JQL: $REPORT_JQL_SOURCE"
           if [ -z "$JIRA_USERNAME" ]; then echo "JIRA_USERNAME missing (configure repository secret)."; exit 1; fi
           if [ -z "$JIRA_PASSWORD" ]; then echo "JIRA_PASSWORD missing (configure repository secret)."; exit 1; fi
           if [ -z "$JIRA_BASE_URL" ]; then echo "JIRA_BASE_URL missing (configure repository secret)."; exit 1; fi
@@ -42,12 +61,12 @@ jobs:
       - name: Run daily report
         env:
           JIRA_AUTH_METHOD: basic
-          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
-          JIRA_USERNAME: ${{ secrets.JIRA_USERNAME }}
-          JIRA_PASSWORD: ${{ secrets.JIRA_PASSWORD }}
-          LARK_WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL }}
-          REPORT_PROJECT_KEYS: ${{ secrets.REPORT_PROJECT_KEYS }}
-          REPORT_JQL: ${{ secrets.REPORT_JQL }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL || vars.JIRA_BASE_URL }}
+          JIRA_USERNAME: ${{ secrets.JIRA_USERNAME || vars.JIRA_USERNAME }}
+          JIRA_PASSWORD: ${{ secrets.JIRA_PASSWORD || vars.JIRA_PASSWORD }}
+          LARK_WEBHOOK_URL: ${{ secrets.LARK_WEBHOOK_URL || vars.LARK_WEBHOOK_URL }}
+          REPORT_PROJECT_KEYS: ${{ secrets.REPORT_PROJECT_KEYS || vars.REPORT_PROJECT_KEYS }}
+          REPORT_JQL: ${{ secrets.REPORT_JQL || vars.REPORT_JQL }}
           TIMEZONE: Asia/Shanghai
           LOG_LEVEL: INFO
           MESSAGE_TYPE: interactive
