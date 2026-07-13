@@ -131,3 +131,652 @@ UnboundLocalError: local variable 'fields_block' referenced before assignment
 2025-11-10 10:57:26,915 INFO __main__: 从 Jira 获取到 9 条结果
 2025-11-10 10:57:28,025 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
 2025-11-10 10:57:28,026 INFO __main__: 报告已推送，条目数=9，类型=interactive
+2025-11-11 11:02:01,595 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-11 11:02:02,918 INFO __main__: 从 Jira 获取到 18 条结果
+2025-11-11 11:02:04,880 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-11 11:02:04,880 INFO __main__: 报告已推送，条目数=18，类型=interactive
+2025-11-11 11:21:04,571 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-11 11:21:05,858 INFO __main__: 从 Jira 获取到 18 条结果
+2025-11-11 11:21:06,799 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-11 11:21:06,799 INFO __main__: 报告已推送，条目数=18，类型=interactive
+2025-11-11 11:25:19,195 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-11 11:25:20,017 INFO __main__: 从 Jira 获取到 18 条结果
+2025-11-11 11:25:20,992 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-11 11:25:20,992 INFO __main__: 报告已推送，条目数=18，类型=interactive
+2025-11-12 15:34:42,542 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-12 15:34:43,416 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-12 15:34:45,136 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-12 15:34:45,137 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-12 15:37:08,434 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-12 15:37:08,805 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-12 15:37:09,347 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-12 15:37:09,348 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-13 15:02:08,974 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-13 15:02:09,927 INFO __main__: 从 Jira 获取到 2 条结果
+2025-11-13 15:02:10,671 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-13 15:02:10,672 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2025-11-14 14:11:49,151 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-14 14:11:50,047 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-14 14:11:51,429 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-14 14:11:51,430 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-17 13:47:44,134 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-17 13:47:45,044 INFO __main__: 从 Jira 获取到 3 条结果
+2025-11-17 13:47:45,765 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-17 13:47:45,767 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2025-11-17 15:52:11,067 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-17 15:52:13,200 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-17 15:52:13,644 INFO __main__: Lark响应: {'code': 11246, 'data': {}, 'msg': 'ErrCode: 200621; ErrMsg: parse card json err, please check whether the card json is correct; ErrorValue: with value string at index 322: mismatched type with value\n\n\teader":{"title":"SIT/UAT Pending\n\t................^...............\n; '}
+2025-11-17 15:52:13,646 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-17 15:53:52,556 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-17 15:53:53,565 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-17 15:53:54,447 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-17 15:53:54,448 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-17 15:58:58,609 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-17 15:58:59,628 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-17 15:59:00,623 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-17 15:59:00,623 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-17 19:28:21 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-17 19:28:21 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-17 19:28:22 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-17 19:28:22 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-17 22:59:10 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-17 22:59:35 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-17 22:59:36 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-17 22:59:37 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-17 22:59:37 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-18 11:02:18 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-18 11:02:19 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-18 11:02:21 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 11:02:21 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-18 11:21:33 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open, Resolved) AND Env in (SIT, UAT)
+2025-11-18 11:21:37 INFO __main__: 从 Jira 获取到 100 条结果
+2025-11-18 11:21:37 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 11:21:37 INFO __main__: 报告已推送，条目数=100，类型=interactive
+2025-11-18 11:27:43 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 11:27:44 INFO __main__: 从 Jira 获取到 6 条结果
+2025-11-18 11:27:45 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 11:27:45 INFO __main__: 报告已推送，条目数=6，类型=interactive
+2025-11-18 11:28:28,798 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 11:28:29,288 INFO __main__: 从 Jira 获取到 6 条结果
+2025-11-18 11:28:30,368 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 11:28:30,370 INFO __main__: 报告已推送，条目数=6，类型=interactive
+2025-11-18 11:48:12,611 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 11:48:13,710 INFO __main__: 从 Jira 获取到 6 条结果
+2025-11-18 11:48:14,625 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 11:48:14,626 INFO __main__: 报告已推送，条目数=6，类型=interactive
+2025-11-18 11:54:04,835 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 11:54:05,349 INFO __main__: 从 Jira 获取到 6 条结果
+2025-11-18 11:54:06,311 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 11:54:06,312 INFO __main__: 报告已推送，条目数=6，类型=interactive
+2025-11-18 12:00:03,960 INFO __main__: 开始生成日报：jql=project = CS AND issuetype = Bug AND status = Resolved AND Env in (SIT, UAT)
+2025-11-18 12:00:04,821 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-18 12:00:06,454 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 12:00:06,456 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-18 14:43:29 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 14:43:30 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 14:43:32 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 14:43:32 INFO __main__: 报告已推送，条目数=7，类型=interactive
+2025-11-18 14:46:27 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 14:46:27 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 14:46:29 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 14:46:29 INFO __main__: 报告已推送，条目数=7，类型=interactive
+2025-11-18 15:13:20 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 15:13:20 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-18 15:13:22 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 15:13:22 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-18 15:15:38 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 15:15:39 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 15:15:40 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 15:15:40 INFO __main__: 报告已推送，条目数=7，类型=interactive
+2025-11-18 15:16:42 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 15:16:43 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 15:16:44 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 15:16:44 INFO __main__: 报告已推送，条目数=7，类型=interactive
+2025-11-18 15:50:22 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 15:50:23 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 15:50:24 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 15:50:24 INFO __main__: 报告已推送，条目数=7，类型=interactive
+2025-11-18 15:52:48 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 15:52:49 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 15:52:50 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 15:52:50 INFO __main__: 报告已推送，条目数=7，类型=interactive
+2025-11-18 15:55:38 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 15:55:39 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 15:58:10 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 15:58:10 INFO __main__: 从 Jira 获取到 7 条结果
+2025-11-18 16:01:13 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 16:01:14 INFO __main__: 从 Jira 获取到 6 条结果
+2025-11-18 16:15:02 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 16:15:03 INFO __main__: 从 Jira 获取到 6 条结果
+2025-11-18 16:15:04 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 16:15:04 INFO __main__: 报告已推送，条目数=6，类型=interactive
+2025-11-18 16:16:13 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 16:16:13 INFO __main__: 从 Jira 获取到 6 条结果
+2025-11-18 16:16:14 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 16:16:14 INFO __main__: 报告已推送，条目数=6，类型=interactive
+2025-11-18 18:13:11 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-18 18:13:12 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-18 18:13:13 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-18 18:13:13 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-25 14:26:05 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT)
+2025-11-25 14:26:06 INFO __main__: 从 Jira 获取到 3 条结果
+2025-11-25 14:26:07 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 14:26:07 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2025-11-25 14:27:31 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open, Resolved) AND Env in (UAT, SIT)
+2025-11-25 14:27:31 INFO __main__: 从 Jira 获取到 3 条结果
+2025-11-25 14:27:33 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 14:27:33 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2025-11-25 14:38:25 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-25 14:38:26 INFO __main__: 从 Jira 获取到 15 条结果
+2025-11-25 14:38:27 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 14:38:27 INFO __main__: 报告已推送，条目数=15，类型=interactive
+2025-11-25 14:45:39 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-25 14:45:40 INFO __main__: 从 Jira 获取到 15 条结果
+2025-11-25 14:45:42 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 14:45:42 INFO __main__: 报告已推送，条目数=15，类型=interactive
+2025-11-25 14:48:21 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-25 14:48:22 INFO __main__: 从 Jira 获取到 15 条结果
+2025-11-25 14:48:24 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 14:48:24 INFO __main__: 报告已推送，条目数=15，类型=interactive
+2025-11-25 14:49:20 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-25 14:49:21 INFO __main__: 从 Jira 获取到 15 条结果
+2025-11-25 14:49:22 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 14:49:22 INFO __main__: 报告已推送，条目数=15，类型=interactive
+2025-11-25 22:53:09 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-25 22:53:52 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-25 22:53:53 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-25 22:53:53 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 22:53:53 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-25 22:57:18 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-25 22:57:18 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-25 22:57:19 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 22:57:20 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-25 23:02:39 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-25 23:02:40 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-25 23:02:41 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 23:02:41 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-25 23:04:38 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-25 23:04:38 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-25 23:04:39 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-25 23:04:39 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 10:05:32 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 10:05:33 INFO __main__: 从 Jira 获取到 2 条结果
+2025-11-26 10:05:34 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 10:05:35 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2025-11-26 11:15:57 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 11:15:58 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 11:15:59 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 11:15:59 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 11:19:41 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 11:19:42 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 11:19:43 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 11:19:44 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 11:45:15 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 11:45:16 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 11:45:18 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 11:45:18 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 11:51:10 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 11:51:11 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 11:51:12 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 11:51:12 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 11:52:44 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 11:52:44 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 11:52:45 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 11:52:46 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 15:25:52 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 15:25:53 INFO __main__: 从 Jira 获取到 0 条结果
+2025-11-26 15:25:54 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 15:25:54 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2025-11-26 15:28:34 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 15:28:35 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 15:28:36 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 15:28:36 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 15:30:20 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 15:30:21 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 15:30:22 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 15:30:22 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 15:34:17 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 15:34:17 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 15:34:19 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 15:34:19 INFO __main__: mention source=card names=1 resolved_ids=0
+2025-11-26 15:34:19 INFO __main__: mention skipped: no resolved ids and plain mention disabled
+2025-11-26 15:34:19 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 15:36:07 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 15:36:07 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 15:36:08 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 15:36:08 INFO __main__: mention source=card names=1 resolved_ids=1
+2025-11-26 15:36:09 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 15:56:31 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 15:56:32 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 15:56:33 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 15:56:34 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 16:16:04 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 16:16:05 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 16:16:06 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 16:16:06 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 16:30:39 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 16:30:40 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 16:30:41 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 16:30:41 INFO __main__: 提及候选数=1, 候选=吴维(Shirley)
+2025-11-26 16:30:41 WARNING __main__: 未匹配到user_id的人员=吴维(Shirley)
+2025-11-26 16:30:41 INFO __main__: 未发送提及：无可用user_id，AT_ASSIGNEE_MENTION=True
+2025-11-26 16:30:41 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 16:31:54 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 16:31:55 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 16:31:57 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 16:31:57 INFO __main__: 提及候选数=1, 候选=吴维(Shirley)
+2025-11-26 16:31:57 INFO __main__: 发送提及数=1
+2025-11-26 16:31:58 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 16:31:58 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 16:35:32 INFO __main__: 开始生成日报 jql=project = MP AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT)
+2025-11-26 16:35:32 INFO __main__: 从 Jira 获取到 1 条结果
+2025-11-26 16:35:34 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 16:35:34 INFO __main__: 提及候选数=1, 候选=Chintia Uli Br Panggabean
+2025-11-26 16:35:34 INFO __main__: 发送提及数=1
+2025-11-26 16:35:34 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 16:35:34 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2025-11-26 21:32:25 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-26 21:32:26 INFO __main__: 从 Jira 获取到 3 条结果
+2025-11-26 21:32:27 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 21:32:27 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2025-11-26 21:47:51 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-26 21:47:52 INFO __main__: 从 Jira 获取到 3 条结果
+2025-11-26 21:47:53 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 21:47:54 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2025-11-26 22:19:08 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-26 22:19:09 INFO __main__: 从 Jira 获取到 3 条结果
+2025-11-26 22:19:10 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 22:19:10 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2025-11-26 22:20:30 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-26 22:20:31 INFO __main__: 从 Jira 获取到 11 条结果
+2025-11-26 22:20:31 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 22:23:55 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-26 22:23:56 INFO __main__: 从 Jira 获取到 11 条结果
+2025-11-26 22:23:56 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 22:25:07 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-26 22:25:08 INFO __main__: 从 Jira 获取到 11 条结果
+2025-11-26 22:25:09 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 22:25:09 INFO __main__: 提及候选数=4, 候选=Thikumporn Homeaw, Atho Isnanthyo Abyan, 冯明明(Jerry), 吴维(Shirley)
+2025-11-26 22:25:09 INFO __main__: 发送提及数=4
+2025-11-26 22:25:09 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 22:25:09 INFO __main__: 报告已推送，条目数=11，类型=interactive
+2025-11-26 23:06:10 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2025-11-26 23:06:11 INFO __main__: 从 Jira 获取到 11 条结果
+2025-11-26 23:06:12 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 23:06:12 INFO __main__: 提及候选数=4, 候选=Thikumporn Homeaw, Atho Isnanthyo Abyan, 冯明明(Jerry), 吴维(Shirley)
+2025-11-26 23:06:12 INFO __main__: 发送提及数=4
+2025-11-26 23:06:12 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-26 23:06:12 INFO __main__: 报告已推送，条目数=11，类型=interactive
+2025-11-28 18:22:36 INFO __main__: 开始生成日报 jql=project = CS AND issuetype = Bug AND status in (Open) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2029-12-31
+2025-11-28 18:22:37 INFO __main__: 从 Jira 获取到 5 条结果
+2025-11-28 18:22:38 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2025-11-28 18:22:39 INFO __main__: 报告已推送，条目数=5，类型=interactive
+2026-05-07 14:58:13 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.14"
+2026-05-07 14:58:15 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-07 14:58:17 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 14:58:17 INFO __main__: 提及候选数=1, 候选=Jefry Yoanda
+2026-05-07 14:58:17 WARNING __main__: 未匹配到user_id的人员=Jefry Yoanda
+2026-05-07 14:58:17 INFO __main__: 未发送提及：无可用user_id，AT_QA_MENTION=True
+2026-05-07 14:58:17 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-07 15:21:58 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.14"
+2026-05-07 15:22:00 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-07 15:22:00 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-05-07 15:22:02 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 15:22:02 INFO __main__: 提及候选数=2, 候选=Atho Isnanthyo Abyan, aaron
+2026-05-07 15:22:02 INFO __main__: 发送提及数=2
+2026-05-07 15:22:04 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 15:22:04 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-07 15:28:54 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.14"
+2026-05-07 15:28:55 INFO __main__: 从 Jira 获取到 2 条结果
+2026-05-07 15:28:55 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-05-07 15:28:58 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 15:28:58 INFO __main__: 提及候选数=2, 候选=Atho Isnanthyo Abyan, aaron
+2026-05-07 15:28:58 INFO __main__: 发送提及数=2
+2026-05-07 15:29:01 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 15:29:01 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2026-05-07 18:24:02 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.14"
+2026-05-07 18:24:04 INFO __main__: 从 Jira 获取到 1 条结果
+2026-05-07 18:24:05 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-05-07 18:24:12 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 18:24:12 INFO __main__: 报告已推送，条目数=1，类型=post
+2026-05-07 18:24:58 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.14"
+2026-05-07 18:25:01 INFO __main__: 从 Jira 获取到 1 条结果
+2026-05-07 18:25:01 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-05-07 18:25:07 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 18:25:07 INFO __main__: 提及候选数=1, 候选=aaron
+2026-05-07 18:25:07 INFO __main__: 发送提及数=1
+2026-05-07 18:25:10 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-07 18:25:10 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-05-26 19:18:41 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16"
+2026-05-26 19:18:43 INFO __main__: 从 Jira 获取到 14 条结果
+2026-05-26 19:18:56 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-26 19:18:56 INFO __main__: 报告已推送，条目数=14，类型=interactive
+2026-05-27 16:06:51 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16"
+2026-05-27 16:06:53 INFO __main__: 从 Jira 获取到 14 条结果
+2026-05-27 16:07:05 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 16:07:05 INFO __main__: 报告已推送，条目数=14，类型=interactive
+2026-05-27 16:47:12 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 16:47:14 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110
+2026-05-27 16:47:14 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 16:47:18 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 16:47:18 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 17:36:07 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 17:36:07 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 17:36:09 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 17:36:13 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 17:36:13 INFO __main__: 报告已推送，条目数=3，类型=post
+2026-05-27 17:37:35 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 17:37:35 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 17:37:36 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 17:37:41 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 17:37:41 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 17:53:56 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 17:53:56 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 17:53:58 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 17:54:03 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 17:54:03 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 17:55:24 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 17:55:24 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 17:55:26 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 17:55:30 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 17:55:30 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 18:12:38 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 18:12:38 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 18:12:39 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 18:12:44 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 18:12:44 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 18:29:45 INFO __main__: 动态解析 FIX_VERSION 成功: v6.16
+2026-05-27 18:29:45 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 18:29:45 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 18:29:45 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 18:29:49 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 18:29:49 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:15:13 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:15:13 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:15:13 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:15:13 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:15:13 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:15:14 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:15:15 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:15:18 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:15:18 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:16:57 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:16:57 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:16:57 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:16:57 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:16:57 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:16:58 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:16:59 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:17:12 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:17:12 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:18:04 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:18:04 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:18:04 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:18:05 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:18:05 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:18:06 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:18:07 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:18:08 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:18:08 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:18:58 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:18:58 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:18:58 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:18:58 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:18:58 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:19:00 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:19:00 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:19:03 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:19:03 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:21:57 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:21:57 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:21:57 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:21:57 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:21:57 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:21:59 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:21:59 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:22:01 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:22:01 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:23:15 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:23:15 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:23:15 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:23:15 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:23:15 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:23:17 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:23:17 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:23:19 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:23:19 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:23:37 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:23:37 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:23:37 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:23:37 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:23:37 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:23:39 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:23:40 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:23:42 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:23:42 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:24:13 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:24:13 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:24:13 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:24:13 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:24:13 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:24:15 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:24:16 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:24:41 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:24:41 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:24:49 INFO __main__: 动态解析 FIX_VERSION 成功 (当前处于该版本区间内): v6.16
+2026-05-27 19:24:49 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:24:49 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:24:49 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:24:49 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:24:51 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:24:51 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:24:53 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:24:53 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:28:21 INFO __main__: 动态解析 FIX_VERSION 成功 (依据发布时间匹配): v6.16
+2026-05-27 19:28:21 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:28:21 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:28:21 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:28:21 WARNING __main__: 计算开发结束时间失败 key=CS-26877 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:28:23 WARNING __main__: 计算开发结束时间失败 key=CS-26845 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:28:24 WARNING __main__: 计算开发结束时间失败 key=CS-26362 err=isinstance() arg 2 must be a type, a tuple of types, or a union
+2026-05-27 19:28:25 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:28:25 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-27 19:29:11 INFO __main__: 动态解析 FIX_VERSION 成功 (依据发布时间匹配): v6.16
+2026-05-27 19:29:11 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-27 19:29:11 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-27 19:29:11 INFO __main__: 从 Jira 获取到 3 条结果
+2026-05-27 19:29:15 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-27 19:29:15 INFO __main__: 报告已推送，条目数=3，类型=interactive
+2026-05-28 15:26:45 INFO __main__: 捕获当前版本号: v6.16 (依据发布时间匹配)
+2026-05-28 15:26:45 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-28 15:26:45 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-28 15:26:45 INFO __main__: 从 Jira 获取到 2 条结果
+2026-05-28 15:26:49 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:26:51 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:26:51 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2026-05-28 15:38:05 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype = Bug AND status in ( Resolved) AND Env in (UAT, SIT) AND created >= 2025-01-01 AND created <= 2030-12-31
+2026-05-28 15:38:06 INFO __main__: 从 Jira 获取到 0 条结果
+2026-05-28 15:38:07 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:38:07 INFO __main__: 提及候选数=0, 候选=
+2026-05-28 15:38:07 INFO __main__: 未发送提及:无可用user_id,AT_QA_MENTION=True
+2026-05-28 15:38:07 INFO __main__: 报告已推送,条目数=0,类型=interactive
+2026-05-28 15:42:21 INFO __main__: 捕获当前版本号: v6.16 (依据发布时间匹配)
+2026-05-28 15:42:21 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-28 15:42:21 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-28 15:42:21 INFO __main__: 从 Jira 获取到 2 条结果
+2026-05-28 15:42:28 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:42:30 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:42:30 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2026-05-28 15:47:12 INFO __main__: 捕获当前版本号: v6.16 (依据发布时间匹配)
+2026-05-28 15:47:12 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-28 15:47:12 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-28 15:47:12 INFO __main__: 从 Jira 获取到 2 条结果
+2026-05-28 15:47:16 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:47:17 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:47:17 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2026-05-28 15:56:13 INFO __main__: 捕获当前版本号: v6.16 (依据发布时间匹配)
+2026-05-28 15:56:13 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-28 15:56:13 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-28 15:56:13 INFO __main__: 从 Jira 获取到 2 条结果
+2026-05-28 15:56:18 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:56:20 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 15:56:20 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2026-05-28 19:02:35 INFO __main__: 捕获当前版本号: v6.16 (依据发布时间匹配)
+2026-05-28 19:02:35 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.16" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-05-28 19:02:35 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-05-28 19:02:35 INFO __main__: 从 Jira 获取到 1 条结果
+2026-05-28 19:02:38 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 19:02:39 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-28 19:02:39 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-05-29 14:10:19 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-05-29 14:10:19 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.17"
+2026-05-29 14:10:19 INFO __main__: 从 Jira 获取到 0 条结果
+2026-05-29 14:10:19 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-05-29 14:10:21 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-29 14:10:21 INFO __main__: 提及候选数=0, 候选=
+2026-05-29 14:10:21 INFO __main__: 未发送提及：无可用user_id，AT_QA_MENTION=True
+2026-05-29 14:10:21 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-05-29 14:16:58 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-05-29 14:16:58 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.17"
+2026-05-29 14:16:58 INFO __main__: 从 Jira 获取到 0 条结果
+2026-05-29 14:16:58 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-05-29 14:17:00 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-05-29 14:17:00 INFO __main__: 提及候选数=0, 候选=
+2026-05-29 14:17:00 INFO __main__: 未发送提及：无可用user_id，AT_QA_MENTION=True
+2026-05-29 14:17:00 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-01 14:03:48 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-06-01 14:03:48 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.17"
+2026-06-01 14:03:49 INFO __main__: 从 Jira 获取到 0 条结果
+2026-06-01 14:03:49 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-06-01 14:03:51 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-01 14:03:51 INFO __main__: 提及候选数=0, 候选=
+2026-06-01 14:03:51 INFO __main__: 未发送提及：无可用user_id，AT_QA_MENTION=True
+2026-06-01 14:03:51 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-01 14:09:16 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-06-01 14:09:16 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.17"
+2026-06-01 14:09:16 INFO __main__: 从 Jira 获取到 0 条结果
+2026-06-01 14:09:16 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-06-01 14:09:19 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-01 14:09:19 INFO __main__: 提及候选数=0, 候选=
+2026-06-01 14:09:19 INFO __main__: 未发送提及：无可用user_id，AT_QA_MENTION=True
+2026-06-01 14:09:19 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-01 14:23:54 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-06-01 14:23:54 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.17"
+2026-06-01 14:23:54 INFO __main__: 从 Jira 获取到 0 条结果
+2026-06-01 14:23:54 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-06-01 14:23:59 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-01 14:23:59 INFO __main__: 提及候选数=0, 候选=
+2026-06-01 14:23:59 INFO __main__: 未发送提及：无可用user_id，AT_QA_MENTION=True
+2026-06-01 14:23:59 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-01 14:31:47 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-06-01 14:31:47 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.17" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-06-01 14:31:47 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-06-01 14:31:48 INFO __main__: 从 Jira 获取到 0 条结果
+2026-06-01 14:31:49 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-01 14:31:49 INFO __main__: 未发送提及：无可用user_id
+2026-06-01 14:31:49 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-02 15:28:37 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-06-02 15:28:37 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion = "v6.17"
+2026-06-02 15:28:37 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-02 15:28:37 INFO __main__: 从 Jira 获取到 0 条符合状态和版本的结果
+2026-06-02 15:28:37 INFO __main__: 经过排查，发现 0 条没有匹配 QA 子任务的数据
+2026-06-02 15:28:44 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 15:28:44 INFO __main__: 未发送提及：无可用user_id
+2026-06-02 15:28:44 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-02 18:48:17 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion = "v6.18"
+2026-06-02 18:48:17 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-02 18:48:19 INFO __main__: 从 Jira 获取到 11 条符合状态和版本的结果
+2026-06-02 18:48:26 INFO __main__: 经过排查，发现 1 条没有匹配 QA 子任务的数据
+2026-06-02 18:48:29 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 18:48:30 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 18:48:30 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-06-02 19:04:57 INFO __main__: 应用奇偶逻辑: v6.17 为奇数版本，合并下一版本 v6.18
+2026-06-02 19:04:57 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion in ("v6.17", "v6.18")
+2026-06-02 19:04:57 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-02 19:04:59 INFO __main__: 从 Jira 获取到 11 条符合状态和版本的结果
+2026-06-02 19:05:07 INFO __main__: 经过排查，发现 1 条没有匹配 QA 子任务的数据
+2026-06-02 19:05:10 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:05:12 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:05:12 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-06-02 19:10:20 INFO __main__: 应用奇偶逻辑: v6.17 为奇数版本，合并下一版本 v6.18
+2026-06-02 19:10:20 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion in ("v6.17", "v6.18")
+2026-06-02 19:10:20 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-02 19:10:21 INFO __main__: 从 Jira 获取到 11 条符合状态和版本的结果
+2026-06-02 19:10:29 INFO __main__: 经过排查，发现 1 条没有匹配 QA 子任务的数据
+2026-06-02 19:10:31 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:10:33 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:10:33 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-06-02 19:18:05 INFO __main__: 应用奇偶逻辑: v6.17 为奇数版本，合并下一版本 v6.18
+2026-06-02 19:18:05 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion in ("v6.17", "v6.18")
+2026-06-02 19:18:05 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-02 19:18:06 INFO __main__: 从 Jira 获取到 11 条符合状态和版本的结果
+2026-06-02 19:18:14 INFO __main__: 经过排查，发现 1 条没有匹配 QA 子任务的数据
+2026-06-02 19:18:18 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:18:20 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:18:20 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-06-02 19:21:51 INFO __main__: 应用奇偶逻辑: v6.17 为奇数版本，合并下一版本 v6.18
+2026-06-02 19:21:51 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion in ("v6.17", "v6.18")
+2026-06-02 19:21:51 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-02 19:21:52 INFO __main__: 从 Jira 获取到 11 条符合状态和版本的结果
+2026-06-02 19:22:00 INFO __main__: 经过排查，发现 1 条没有匹配 QA 子任务的数据
+2026-06-02 19:22:03 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:22:06 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:22:06 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-06-02 19:25:34 INFO __main__: 应用奇偶逻辑: v6.17 为奇数版本，合并下一版本 v6.18
+2026-06-02 19:25:34 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion in ("v6.17", "v6.18")
+2026-06-02 19:25:34 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-02 19:25:35 INFO __main__: 从 Jira 获取到 11 条符合状态和版本的结果
+2026-06-02 19:25:43 INFO __main__: 经过排查，发现 1 条没有匹配 QA 子任务的数据
+2026-06-02 19:25:45 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:25:47 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-02 19:25:47 INFO __main__: 报告已推送，条目数=1，类型=interactive
+2026-06-04 14:55:53 INFO __main__: 捕获当前版本号: v6.17 (奇数版本，包含下一版本 v6.18)
+2026-06-04 14:55:53 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion = "v6.17, v6.18"
+2026-06-04 14:58:28 INFO __main__: 捕获当前版本号: v6.17 (奇数版本，包含下一版本 v6.18)
+2026-06-04 14:58:28 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion in ("v6.17", "v6.18")
+2026-06-04 14:58:28 INFO __main__: 从 Jira 获取到 2 条结果
+2026-06-04 14:58:28 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-06-04 14:58:32 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 14:58:32 INFO __main__: 提及候选数=3, 候选=Thikumporn Homeaw, 冯明明(Jerry), 蔡淑彬(Nora)
+2026-06-04 14:58:32 INFO __main__: 发送提及数=3
+2026-06-04 14:58:33 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 14:58:33 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2026-06-04 16:29:31 INFO __main__: 捕获当前版本号: v6.17 (奇数版本，包含下一版本 v6.18)
+2026-06-04 16:29:31 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status = "Ready to Brief" AND fixVersion in ("v6.17", "v6.18")
+2026-06-04 16:29:32 INFO __main__: 从 Jira 获取到 2 条结果
+2026-06-04 16:29:32 INFO __main__: 已自动解析QA字段：name=QAs id=customfield_10700
+2026-06-04 16:29:33 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 16:29:33 INFO __main__: 提及候选数=3, 候选=Thikumporn Homeaw, 冯明明(Jerry), 蔡淑彬(Nora)
+2026-06-04 16:29:33 INFO __main__: 发送提及数=3
+2026-06-04 16:29:34 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 16:29:34 INFO __main__: 报告已推送，条目数=2，类型=interactive
+2026-06-04 17:03:23 INFO __main__: 应用奇偶逻辑: v6.17 为奇数版本，合并下一版本 v6.18
+2026-06-04 17:03:23 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion in ("v6.17", "v6.18")
+2026-06-04 17:03:23 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-04 17:03:23 INFO __main__: 从 Jira 获取到 9 条符合状态和版本的结果
+2026-06-04 17:03:30 INFO __main__: 经过排查，发现 0 条没有匹配 QA 子任务的数据
+2026-06-04 17:03:33 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 17:03:33 INFO __main__: 未发送提及：无可用user_id
+2026-06-04 17:03:33 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-04 17:45:23 INFO __main__: 捕获当前版本号: v6.17 (依据发布时间匹配)
+2026-06-04 17:45:23 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion = "v6.17" AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-06-04 17:45:23 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-06-04 17:45:23 INFO __main__: 从 Jira 获取到 0 条结果
+2026-06-04 17:45:25 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 17:45:25 INFO __main__: 未发送提及：无可用user_id
+2026-06-04 17:45:25 INFO __main__: 报告已推送，条目数=0，类型=interactive
+2026-06-04 17:48:44 INFO __main__: 捕获当前版本号: v6.17 (奇数版本，包含下一版本 v6.18)
+2026-06-04 17:48:44 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND fixVersion in ("v6.17", "v6.18") AND status not in ("SIT Done", "IN SIT", "UAT Done", "IN UAT", "Open", "Closed", "Done", "On Hold")
+2026-06-04 17:48:44 INFO __main__: 字段解析 qa_field=customfield_10700 target_start=customfield_10109 target_end=customfield_10110 app_countries=customfield_10206
+2026-06-04 17:48:44 INFO __main__: 从 Jira 获取到 10 条结果
+2026-06-04 17:49:15 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 17:49:24 INFO __main__: 提及响应={'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-04 17:49:24 INFO __main__: 报告已推送，条目数=10，类型=interactive
+2026-06-05 11:09:41 INFO __main__: 应用奇偶逻辑: v6.18 为偶数版本，保持不变
+2026-06-05 11:09:41 INFO __main__: 开始生成日报 jql=project in (CS, MP) AND issuetype in (Story, Improvement) AND status in ("PRD APPROVED", "IN DEV", "DEV DONE") AND fixVersion = "v6.18"
+2026-06-05 11:09:41 INFO __main__: 字段解析 qa_field=customfield_10700 app_countries=customfield_10206
+2026-06-05 11:09:42 INFO __main__: 从 Jira 获取到 8 条符合状态和版本的结果
+2026-06-05 11:09:48 INFO __main__: 经过排查，发现 0 条没有匹配 QA 子任务的数据
+2026-06-05 11:09:51 INFO __main__: Lark响应: {'StatusCode': 0, 'StatusMessage': 'success', 'code': 0, 'data': {}, 'msg': 'success'}
+2026-06-05 11:09:51 INFO __main__: 未发送提及：无可用user_id
+2026-06-05 11:09:51 INFO __main__: 报告已推送，条目数=0，类型=interactive

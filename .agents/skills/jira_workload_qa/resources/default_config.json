@@ -1,0 +1,119 @@
+{
+  "DEFAULT_USERS": {
+    "lifei": "李飞(Bruce)",
+    "wuwei": "吴维(Shirley)",
+    "huxuesong": "胡雪松(Malcolm)",
+    "caishubin": "蔡淑彬(Nora)",
+    "mim": "Thikumporn Homeaw",
+    "tin": "Nguyen Tin",
+    "faris": "Faris Harun Ahmad",
+    "aaron": "aaron",
+    "nanda": "Nanda Caesar"
+  },
+  "DEVELOPERS_FIELD": "customfield_10606",
+  "TARGET_START": "customfield_10109",
+  "TARGET_END": "customfield_10110",
+  "DEFAULT_LARK_GROUP": "推送测试",
+  "STATUS_CLASSIFICATIONS": {
+    "done": [
+      "done",
+      "closed",
+      "resolved",
+      "已完成",
+      "已关闭",
+      "已解决",
+      "完成",
+      "已发布",
+      "已上线",
+      "released",
+      "verified"
+    ],
+    "in_progress": [
+      "in progress",
+      "进行中",
+      "处理中",
+      "开发中",
+      "implementing",
+      "developing",
+      "working"
+    ],
+    "blocked": [
+      "blocked",
+      "impeded",
+      "阻塞",
+      "受阻",
+      "on hold"
+    ],
+    "review": [
+      "in review",
+      "code review",
+      "reviewing",
+      "待评审",
+      "评审中",
+      "待测试",
+      "testing",
+      "测试中",
+      "uat"
+    ],
+    "todo": [
+      "to do",
+      "open",
+      "backlog",
+      "待处理",
+      "待开始",
+      "new",
+      "reopened"
+    ]
+  },
+  "GANTT_CONFIG": {
+    "issue_type_colors": {
+      "Task": {
+        "fill": "#5B9BD5",
+        "text": "#FFFFFF"
+      },
+      "Sub-task": {
+        "fill": "#70AD47",
+        "text": "#FFFFFF"
+      },
+      "Test Sub-Task": {
+        "fill": "#FFC000",
+        "text": "#FFFFFF"
+      }
+    },
+    "issue_type_order": {
+      "Task": 0,
+      "Sub-task": 1,
+      "Test Sub-Task": 2
+    },
+    "fonts": [
+      "Arial Unicode MS",
+      "Heiti TC",
+      "Hiragino Sans GB",
+      "PingFang SC"
+    ],
+    "row_colors": [
+      "#EBF5FB",
+      "#FEF9E7",
+      "#E8F8F5",
+      "#F5EEF8",
+      "#FDEDEC"
+    ],
+    "nd_colors": {
+      "Task": {
+        "bg": "#F0F7FF",
+        "icon": "📋",
+        "text": "#2B579A"
+      },
+      "Sub-task": {
+        "bg": "#F0FFF0",
+        "icon": "  └",
+        "text": "#3E7D3E"
+      },
+      "Test Sub-Task": {
+        "bg": "#FFFDF0",
+        "icon": "  └",
+        "text": "#8A6D00"
+      }
+    }
+  }
+}
